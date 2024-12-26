@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #131313;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1a1a1a;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 29px;
+}
+
+.config {
+    margin-bottom: 20px;
+}
+
+.config label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.config input, .config select, .config button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+}
+
+#scoreboard {
+    margin-top: 20px;
+}
+
+#playersList {
+    list-style: none;
+    padding: 0;
+}
+
+#playersList li {
+    display: flex;
+    justify-content: space-between;
+    background: #3a3a3a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #0f0f0f;
+}
+
+#playersList .score {
+    font-weight: bold;
+}
+
+#startButton {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    transition: background 0.3s;
+}
+
+#startButton:hover {
+    background: #0056b3;
+}
+
+#resetButton {
+    background: #0f0f0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+#resetButton:hover {
+    background: #0c0c0c;
+}
+
+.increment {
+    background: #0a7e36;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #111;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    transition: background 0.3s;
+}
+
+.increment:hover {
+    background: #0a6e36;
+}
+
+.decrement {
+    background: #ff0000;
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid #111;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    transition: background 0.3s;
+}
+
+.decrement:hover {
+    background: #e60000;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes clickAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.clicked {
+    animation: clickAnimation 0.2s ease;
+}
