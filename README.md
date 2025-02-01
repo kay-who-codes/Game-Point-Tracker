@@ -2,7 +2,7 @@
 
 Track players' scores using this simple free web app.
 
-![App Image](Non-App/App%20Image.png)
+![App Image](Non-App/App%20Image.png)(https://kay-who-codes.github.io/Game-Point-Tracker/)
 
 ## Features
 
