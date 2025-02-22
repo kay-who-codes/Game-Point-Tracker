@@ -35,7 +35,7 @@ h1 {
 }
 
 .config input, .config select, .config button {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 25px;
     border: 1px solid #0f0f0f;
